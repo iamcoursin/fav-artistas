@@ -1,0 +1,22 @@
+ 
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: #48d3da;
+    
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(5, 6, 6, 0.9254901961);
+  }
+    
+.navbar {
+  margin-right: 10vh;
+  font-weight: bold;
+}
+
+
+  .title {
+    font-weight: bold;
+    margin-left: 13vh;
+  }
