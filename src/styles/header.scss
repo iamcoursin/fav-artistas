@@ -1,10 +1,16 @@
  
   .header {
+    position: relative;
     display: flex;
     flex-direction: row;
-    background-color: #48d3da;
+    // background-color: #48d3da;
+    background-color: #fdd;
+    color: rgb(0, 0, 0);
+    outline-color: #000;
+    
     
     height: 10vh;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(5, 6, 6, 0.9254901961);
@@ -15,8 +21,14 @@
   font-weight: bold;
 }
 
+.navbar p{
+  text-shadow: rgb(214, 186, 186)  3px 4px 0.2em;
+}
+
 
   .title {
+    font-size: 0.8rem;
+    text-shadow: rgb(214, 186, 186) 3px 4px 0.2em;
     font-weight: bold;
     margin-left: 13vh;
   }

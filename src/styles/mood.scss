@@ -1,0 +1,28 @@
+.container-mood {
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+    background-color: #fdd;
+    border-radius: 15px;
+    border: 1.5px #000 solid;
+    margin: 8px;
+    transition: 0.2s;
+    
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        transform: scale(1.1, 1.1);
+      background-color: #eee;
+      color: #000;
+    }
+    &:active {
+     filter: brightness(1.1);
+      color: rgb(47, 30, 30);
+    }
+}
+
+.name{
+    text-transform: uppercase;
+
+}

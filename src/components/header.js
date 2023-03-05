@@ -7,9 +7,9 @@ export const Header = () => {
       <div className="title">
         <h1>Artistas favoritos</h1>
       </div>
-      <div className="navbar">
+      {/* <div className="navbar">
         <p>Gênero</p>
-      </div>
+      </div> */}
     </header>
   )
 }

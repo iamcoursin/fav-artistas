@@ -1,7 +1,14 @@
 .container {
+    flex-direction: column;
+    display: flex;
     padding: 20px;
-    background-color: #eee;
+    background-color: #fff;
     height: 100vh;
-  
+    align-items: center;
     text-align: center;
+
+}
+
+.titulo{
+    text-shadow: #ddd 5px 7px 0.6em;
 }
